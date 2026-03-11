@@ -1,0 +1,8 @@
+# Dia 52 - Análise do nome (split, len)
+nome = str(input('Digite seu Nome : ')).strip()
+print('Analisando seu nome...')
+print(nome.upper())
+print(nome.lower())
+print(len(nome) - nome.count(' '))
+separa = nome.split()
+print(f'Seu nome é {separa[0]} e tem {len(separa[0])} letras')

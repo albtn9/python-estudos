@@ -1,0 +1,6 @@
+# Dia 36 - Valor à vista (10% desc) e a prazo (8% acréscimo)
+valor = float(input("Digite o valor do produto: "))
+avista = valor - (valor * 10/100)
+print(f'o valor a vista fica em {avista} com 10% de desconto')
+aprazo = valor + (valor * 8/100)
+print(f'o valor a prazo fica em {aprazo} com 8% de acréscimo')

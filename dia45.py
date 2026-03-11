@@ -1,0 +1,15 @@
+# Dia 45 - Ordem de apresentação (shuffle)
+import random
+n1 = str(input('Primeiro Aluno: '))
+n2 = str(input('Segundo Aluno: '))
+n3 = str(input('Terceiro Aluno: '))
+n4 = str(input('Quarto Aluno: '))
+n5 = str(input('Quinto Aluno: '))
+n6 = str(input('Sexto Aluno: '))
+aluno = [n1, n2, n3, n4, n5, n6]
+random.shuffle(aluno)
+print(f'O Primeiro aluno a apresentar é o {aluno[0]}')
+print(f'O Segundo aluno a apresentar é o {aluno[1]}')
+print(f'O Terceiro aluno a apresentar é o {aluno[2]}')
+print(f'O Último aluno a apresentar é o {aluno[3]}')
+print(f'O Não apresentam {aluno[4]} e {aluno[5]}')
