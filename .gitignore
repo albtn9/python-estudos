@@ -13,5 +13,5 @@ env/
 *.swp
 *.swo
 
-# Arquivo de música (opcional - remova esta linha se quiser subir o 1.mp3)
-1.mp3
+# Arquivo de música (opcional - remova esta linha se quiser subir o musica.mp3)
+musica.mp3
